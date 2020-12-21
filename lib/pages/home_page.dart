@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
         title: Text(title),
       ),
       body: Padding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
           child: FutureBuilder(
             future: DefaultAssetBundle.of(context)
                 .loadString("assets/receitas.json"),
